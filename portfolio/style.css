@@ -1,0 +1,127 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(112, 110, 110);
+}
+h1{
+    font-size:6rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+p{
+    font-size: 30px;
+    color: brown;
+    font-style: italic;
+
+}
+/* navbar */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10px;
+    background: brown;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.logo{
+    margin-left: 30px;
+}
+#navbar a{
+ margin: 20px;
+}
+#navbar a:hover{
+    color: rgb(0, 143, 71);
+    text-decoration: underline;
+}
+
+/* welcome-section */
+
+#welcome-section{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.second-sec{
+    height: 100vh;
+}
+
+#ab{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top:50px ;
+    
+}
+#pic{
+    width: 100vw;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.intro{
+    color: black;
+    font-size: 30px;
+    margin-inline: 110px;
+    font-style: italic;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+/* project-section */
+
+#project{
+    height: 90vh;    
+    
+}
+#project >h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+li {
+    list-style: lower-alpha;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+ul li >a {
+    margin-left: 20px;
+    
+}
+ul li >a:hover{
+    color: blue;
+}
+#contact{
+    text-align: center;
+
+}
+.contact{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+i{
+   padding:10px;
+}
